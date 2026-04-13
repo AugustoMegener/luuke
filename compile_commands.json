@@ -1,0 +1,34 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-c",
+      "-o",
+      "build/image.o",
+      "src/image.c"
+    ],
+    "directory": "/home/kito/Documentos/luuke",
+    "file": "/home/kito/Documentos/luuke/src/image.c",
+    "output": "/home/kito/Documentos/luuke/build/image.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/kito/Documentos/luuke",
+    "file": "/home/kito/Documentos/luuke/src/main.c",
+    "output": "/home/kito/Documentos/luuke/build/main.o"
+  }
+]
